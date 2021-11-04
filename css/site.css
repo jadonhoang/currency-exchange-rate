@@ -4,11 +4,13 @@
     --backgroundcolor: #ADD8E6;
     --text-color: #231F20;
     --odd-bar-color: #D3D3D3; 
+    --page-spacing: auto;
 }
 
 
 body {
     background-color: var(--backgroundcolor);
+    margin: 0;
 }
 
 /* Creates the style forNavBar at the top of the page and has a hover action */
@@ -26,6 +28,7 @@ body {
     border-color: var(--bg-color);
     transition: 1s;
     margin-bottom: 100px;
+    
 }
 
 .NavBar:hover{
@@ -39,8 +42,9 @@ body {
     flex-direction: row;
     justify-content: space-around;
     margin-left: var(--page-spacing);
-    height: 500px;
+    height: 100vh;
     align-items: flex-end;
+    flex: 1 0 auto;
 
 }
 
