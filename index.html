@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <link rel="stylesheet" href="./site.css"/>
+</head>
+
+<body>
+    <div class="NavBar">
+        <div class="bar">Currency</div>
+        
+    </div>
+    <div class="MainContent">
+        <!-- onClick events shows only text -->
+        <div class="BarChart-bar" style="height: calc(100%/1.625)" onClick="alert('1 EUR = 1 EUR')">EUR</div>
+        <div class="BarChart-bar" style="height: calc(86%/1.625)" onClick="alert('1 EUR = 1.15475 USD')">USD</div>
+        <div class="BarChart-bar" style="height: calc(64.4%/1.625)" onClick="alert('1 EUR = 1.561517 AUD')">AUD</div>
+        <div class="BarChart-bar" style="height: calc(85.6%/1.625)" onClick="alert('1 EUR = 0.856055 GBP')">GBP</div>
+        <div class="BarChart-bar" style="height: calc(162.5%/1.625)" onClick="alert('1 EUR = 1.625103 NZD')">NZD</div>
+    </div>
+    
+
+</body>
+
+
+</html>
+
+<!-- 
+
+Taking the exchange rate as of 11/4/2021
+
+doing this to calculate the height of the bar charts so the height is based on the highest exchange rate
+
+EUR: 1/1.000 = 1.00     1.00 * 100 = 100%
+
+USD: 1.15475 = 0.86     0.86 * 100 = 86%
+
+AUD : 1/1.561517 = 0.644    0.644 * 100 = 64.4 %
+
+GBP : 1/0.856055    0.856055 * 100 = 85.6%
+
+NZD: 1.625103       1.625 * 100 = 162.5 %
+
+
+
+-->
